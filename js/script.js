@@ -1,13 +1,13 @@
              // prendiamo la scatola della scacchiera
 const cBoardEl = document.getElementById('chessboard');
              //dichiaro la variabile bgBox
-let bgBox, bgBox2;
+let bgBox;
              //creo un ciclo FOR
 for (let i = 1; i <= 100; i++){
-                 //creo un div 
+                 //creo un div  
     const squareEl = document.createElement('div'); 
                 //assegno delle classi al div
-    squareEl.className = ` my-aqua ${bgBox} ${bgBox2} square d-flex justify-content-center align-items-center`;
+    squareEl.className = ` my-aqua ${bgBox} square d-flex justify-content-center align-items-center`;
                 //stampo "i" dentro ai div
     squareEl.innerHTML = i ;
                 //metto il div dentro il div padre 'chessboard'
@@ -21,9 +21,9 @@ for (let i = 1; i <= 100; i++){
     if (i % 5 > 3){
         bgBox = 'my-yellow';
     }           //terzo IF (buzzfizz) multiplo di 15
-   /*  if  (i % 15 > 14){
-        bgBox2 = 'my-red';
-    } */
+    if  (i % 15 === 14 ){
+        bgBox = 'my-red';
+    } 
   
 
 
@@ -32,7 +32,7 @@ for (let i = 1; i <= 100; i++){
     console.log(i);
     console.log(squareEl);
 }
- 
+
 
 
 
