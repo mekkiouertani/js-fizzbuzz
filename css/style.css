@@ -2,7 +2,6 @@
     width: 500px;
     height: 500px;
     margin: 100px auto;
-    background-color: aquamarine;
 }
 
 .square{
@@ -16,7 +15,7 @@
     background-color: aqua;
 }
 .my-green{
-    background-color: lightseagreen;
+    background-color: rgb(5, 253, 137);
 }
 .my-yellow{
     background-color: rgb(219, 219, 0);
