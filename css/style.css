@@ -1,13 +1,13 @@
 #chessboard{
-    width: 500px;
+    width: 800px;
     height: 500px;
     margin: 100px auto;
 }
 
 .square{
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    border: 2px solid grey;
 }
 
 /* background colors */
@@ -21,5 +21,5 @@
     background-color: rgb(219, 219, 0);
 }
 .my-red{
-    background-color: rgb(190, 38, 38);
+    background-color: rgb(231, 74, 74);
 }
